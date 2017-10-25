@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Time-Stamper</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"> 
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Time-Stamper
+      </h1>
+      <p>
+        A timestamping microservice. Convert to and from Unix time.
+      </p>
+    </header>
+
+    <main>
+      <h2>
+        Usage:
+      </h2>
+      <code>https://time-stamper.glitch.me/January 3, 1994</code> <br>
+      <p>
+        or
+      </p>
+      <code>https://time-stamper.glitch.me/1358749631</code>
+      <h2>
+        Output:
+      </h2>
+      <code>{"unix":1630627200,"natural":"September 3, 2021"}</code>
+    </main>
+
+    <footer>
+      Created by <a href="https://www.github.com/MikeLuDev" target="_blank" rel="noopener">Michael Lu</a>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="/client.js"></script>
+
+  </body>
+</html>

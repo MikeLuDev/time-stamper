@@ -1,1 +1,1 @@
-# time-stamper
+Made by Michael Lu as part of the FreeCodeCamp curriculum
